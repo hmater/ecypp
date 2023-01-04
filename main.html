@@ -177,9 +177,16 @@
             text-align: left;
             margin-left: 10%;
         }
-        .pt{
+        .pt15{
             padding-top: 15% !important;
         }
+        .pt10{
+            padding-top: 5% !important;
+        }
+        .pt5{
+            padding-top: 1% !important;
+        }
+        /* ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ */
         .content{
             width: 45%;
             aspect-ratio: 1/1;
@@ -198,6 +205,101 @@
             aspect-ratio: 1/1;
             display: block;
             margin: auto;
+        }
+        .diplomados-cont{
+            background: transparent;
+            width: 100%;
+            height: 100vh;
+            margin-top: 50px;
+            
+        }
+        .diplomado-line{
+            background: transparent;
+            width: 100%;
+            margin-bottom: 100px;
+            overflow: visible;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .diplomados-img6{
+            width: 220px;
+            height: 200px;
+            margin: 0 50px;
+            box-shadow: 0 0 10px gray;
+            display: flex;
+            background-size: cover;
+            background-position: center;
+        }
+        .diplomados-img6::after{
+            margin-top: 210px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+            color: black !important;
+        }
+        .gp1{ background-image: url('gp1.jpeg'); }
+        .gp2{ background-image: url('gp2.png'); }
+        .gp3{ background-image: url('gp3.png'); }
+        .gp4{ background-image: url('gp4.png'); }
+        .gp5{ background-image: url('gp5.png'); }
+        .gp6{ background-image: url('gp6.png'); }
+
+        .gp1::after{
+            display: block;
+            content: 'Diplomado en Inteligencia Regional para el Desarrollo';
+        }
+        .gp2::after{
+            display: block;
+            content: "Diplomado en Gestión Pública con Enfoque de Género";
+        }
+        .gp3::after{
+            display: block;
+            content: "Diplomado en Planificación y Gestión en Gobiernos Territoriales Descentralizados";
+        }
+        .gp4::after{
+            display: block;
+            content: "Diplomado en Gobernanza y Participación Ciudadana";
+        }
+        .gp5::after{
+            display: block;
+            content: "Diplomado en Política Pública y Movilidad de las Personas";
+        }
+        .gp6::after{
+            display: block;
+            content: "Diplomado en Gestión Pública Municipal y Desarrollo Local";
+        }
+        .ts3{
+            width: 300px;
+            height: 250px;
+            box-shadow: 0 0 10px rgb(44, 44, 44) !important;
+        }
+
+        .ts3::after{
+            margin-top: 270px;
+            color: white !important;
+ 
+        }
+
+        .ts7{ background-image: url('ts7.png'); }
+        .ts8{ background-image: url('ts8.png'); }
+        .ts9{ background-image: url('ts9.png'); }
+
+        .ts7::after{
+            display: block;
+            content: 'Diplomado en Gerontología Social con Enfoque de Derecho';
+        }
+        .ts8::after{
+            display: block;
+            content: "Diplomado en Mediación Familiar y Comunitaria Desde un Enfoque de Derecho";
+        }
+        .ts9::after{
+            display: block;
+            content: "Diplomado en Transversalización del Enfoque de Género en las Políticas Públicas";
+        }
+        .diplomado-line a{
+            text-decoration: none;
+            text-emphasis: none;
         }
     </style>
 </head>
@@ -230,16 +332,11 @@
             </div>
             <div class="diagonal d1"></div>
 
-            
-
-            
 
         </div>
         <div id="f1" class="dark frame">
 
-
-
-            <div class="content leftside pt">
+            <div class="content leftside pt15">
                 <p class="text big bold">MAGÍSTER EN</p>
                 <p class="text bigger bold">DERECHO</p>
                 <p class="text small spaced"> CON MENCIONES</p>
@@ -258,21 +355,41 @@
 
         </div>
         <div id="f2" class="light frame">
-            <p class="text big bold pt">DIPLOMADOS</p>
+            <p class="text big bold pt5">DIPLOMADOS</p>
             <p class="text med"> Programa Gobernanza,
                 Política y Gestión Pública </p>
-            
+            <div class="diplomados-cont">
+                <div class="diplomado-line">
+                    <a href="https://www.canva.com/design/DAFTrP4RySM/na07Uy9Uc88NEsR-yFTRfQ/view?utm_content=DAFTrP4RySM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><div class="diplomados-img6 gp1"></div></a>
+                    <a href="https://www.canva.com/design/DAFUCu0QNCo/lPEP1yjWy5uzivI014ECMw/view?utm_content=DAFUCu0QNCo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <div class="diplomados-img6 gp2"></div></a>
+                    <a href="https://www.canva.com/design/DAFUlPGm-BM/U6GxO3f3Qa6bO2yQ4EeYaA/view?utm_content=DAFUlPGm-BM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <div class="diplomados-img6 gp3"></div></a>
+                </div>
+                <div class="diplomado-line">
+                    <a href="https://www.canva.com/design/DAFUC_hlYZo/sqrKR6UeWmNyy3SuxrcE1g/view?utm_content=DAFUC_hlYZo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <div class="diplomados-img6 gp4"></div></a>
+                    <a href="https://www.canva.com/design/DAFTxKSJj5g/B2AEeBfCbLbFUr1eDw9iOA/view?utm_content=DAFTxKSJj5g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <div class="diplomados-img6 gp5"></div></a>
+                    <a href="https://www.canva.com/design/DAFTw5sP0wo/nASq6W4ObHs1YexzXckxdQ/view?utm_content=DAFTw5sP0wo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <div class="diplomados-img6 gp6"></div></a>
+                </div>                
+            </div>
         </div>
 
         </div>
         <div id="f3" class="dark frame">            
-            <a href="#f0">f0</a>
-            <a href="#f1">f1</a>
-            <a href="#f2">f2</a>
-            <a href="#f3">f3</a>
+            
 
-            <p class="text big bold pt">DIPLOMADOS</p>
+            <p class="text big bold pt10">DIPLOMADOS</p>
             <p class="text med"> Diplomados Departamento de Trabajo Social</p>
+
+
+            <div class="diplomados-cont">
+                <div class="diplomado-line">
+                    <a href="https://www.canva.com/design/DAFTqSpyy5I/M0fuP0U81tSEhWe1INDbyA/view?utm_content=DAFTqSpyy5I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <div class="diplomados-img6 ts7 ts3"></div></a>
+                    <a href="https://www.canva.com/design/DAFUDJ60P04/UdkTroz6cAHWM4i9gC1a1A/view?utm_content=DAFUDJ60P04&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <div class="diplomados-img6 ts8 ts3"></div></a>
+                    <a href="https://www.canva.com/design/DAFUllSALDg/SH3eb0H8a3fRt2rwWa371g/view?utm_content=DAFUllSALDg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <div class="diplomados-img6 ts9 ts3"></div></a>
+                </div>
+               
+            </div>
+
+
         </div>
     </div>
 </body>
